@@ -1,0 +1,28 @@
+@import 'type.scss';
+
+
+//main
+body{
+    padding:0;
+    margin: 1rem auto;
+    max-width: 70vh;
+    background: url(/img/bg.jpg);
+    background-size: contain;
+}
+
+section{
+    display:flex;
+    aspect-ratio: 1/1.45;
+    background: linear-gradient(to bottom,  #fefefe 0%,#edf7f9 97%,#edf7f9 100%); 
+    box-shadow: 5px 0px 10px #00000070;
+    overflow:hidden;
+}
+
+.circle{
+    width: 10vh;
+    height: 10vh;
+    background-color: #000;
+    border-radius: 50%;
+    display: block;
+}
+
